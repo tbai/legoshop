@@ -24,6 +24,7 @@
 npm-debug.log
 testem.log
 /typings
+lib-cov
 
 # e2e
 /e2e/*.js
@@ -32,3 +33,14 @@ testem.log
 #System Files
 .DS_Store
 Thumbs.db
+
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# node-waf configuration
+.lock-wscript
