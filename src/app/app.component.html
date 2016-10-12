@@ -1,27 +1,34 @@
-
-
-
 <md-toolbar color="primary">
   Bai's Lego Shop
+  <!--<md-spinner *ngIf="(loading " style="width:50px;"></md-spinner>-->
 </md-toolbar>
 
-<div class="app-content">
-
-  <md-slider></md-slider>
-
-
-  <md-card>
-    <button md-button>FLAT</button>
-    <button md-raised-button md-tooltip="This is a tooltip!">RAISED</button>
-    <button md-raised-button color="primary">PRIMARY RAISED</button>
-    <button md-raised-button color="accent">ACCENT RAISED</button>
-    <span class="app-action" [class.m2app-dark]="isDarkTheme">
-      <button md-fab><md-icon>check circle</md-icon></button>
-    </span>
-  </md-card>
-
+<div class="spinner-container">
+  <md-spinner *ngIf="(loading$ | async)" color="accent"></md-spinner>
 </div>
 
+<div *ngIf="!(loading$ | async)" class="container">
 
+  <div class="row">
 
+    <div class="col-sm-9">
 
+      <budget-selector></budget-selector>
+
+      <div>
+
+        <lego-card-list></lego-card-list>
+
+      </div>
+
+    </div>
+
+    <div class="col-sm-3">
+
+      <shopping-cart></shopping-cart>
+
+    </div>
+
+  </div>
+
+</div>

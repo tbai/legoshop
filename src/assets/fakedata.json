@@ -1,0 +1,23 @@
+{
+  "loading": false,
+  "budget": 100,
+  "budgetUsed": 0,
+  "legos": {
+    "01": {
+      "id":"01",
+      "name": "Lego name 1",
+      "price": 19.99,
+      "image": "https://sh-s7-live-s.legocdn.com/is/image/LEGO/31038?$leaf2$",
+      "thumbnail": "https://sh-s7-live-s.legocdn.com/is/image/LEGO/31038?$leaf2$"
+    },
+    "02": {
+      "id":"02",
+      "name": "Lego name 2",
+      "price": 13.39,
+      "image": "https://sh-s7-live-s.legocdn.com/is/image/LEGO/31038?$leaf2$",
+      "thumbnail": "https://sh-s7-live-s.legocdn.com/is/image/LEGO/31038?$leaf2$"
+    }
+  },
+  "shopList": ["01", "02"],
+  "cartList": []
+}
