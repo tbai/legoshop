@@ -18,12 +18,18 @@ import { Lego } from '../shared';
     md-card-content {
       text-align: center;
     }
+
+    p.name {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
   `],
   template: `
     <md-card *ngIf="lego">
       <img md-card-image src="{{lego.thumbnail}}">
       <md-card-content>
-        <p class="name"><strong>{{lego.name}}</strong></p>
+        <p class="name" title="{{lego.name}}"><strong>{{lego.name}}</strong></p>
         <p class="price">{{lego.price | currency:'AUD':true}}</p>
       </md-card-content>
 

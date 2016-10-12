@@ -1,23 +1,199 @@
 {
   "loading": false,
-  "budget": 100,
+  "budget": 500,
   "budgetUsed": 0,
   "legos": {
-    "01": {
-      "id":"01",
-      "name": "Lego name 1",
-      "price": 19.99,
-      "image": "https://sh-s7-live-s.legocdn.com/is/image/LEGO/31038?$leaf2$",
-      "thumbnail": "https://sh-s7-live-s.legocdn.com/is/image/LEGO/31038?$leaf2$"
+    "2278565": {
+      "id": "2278565",
+      "name": "LEGO Super Heroes The Hulk Buster Smash - 76031",
+      "price": 25.99,
+      "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/61FJlXZ750L._AC_US160_.jpg"
     },
-    "02": {
-      "id":"02",
-      "name": "Lego name 2",
-      "price": 13.39,
-      "image": "https://sh-s7-live-s.legocdn.com/is/image/LEGO/31038?$leaf2$",
-      "thumbnail": "https://sh-s7-live-s.legocdn.com/is/image/LEGO/31038?$leaf2$"
+    "3786444": {
+      "id": "3786444",
+      "name": "LEGO Architecture 21019 The Eiffel Tower",
+      "price": 28.99,
+      "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/511tP860tQL._AC_US160_.jpg"
+    },
+    "9032439": {
+      "id": "9032439",
+      "name": "LEGO Creator Construction Vehicles 31041",
+      "price": 4.79,
+      "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/51nt8zJ5kvL._AC_US160_.jpg"
+    },
+    "9096477": {
+      "id": "9096477",
+      "name": "LEGO CITY Fire Ladder Truck 60107",
+      "price": 13.59,
+      "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/616kxrb5vpL._AC_US160_.jpg"
+    },
+    "18945511": {
+      "id": "18945511",
+      "name": "LEGO Creator Blue Racer Set",
+      "price": 3.99,
+      "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/51QrNF7BxUL._AC_US160_.jpg"
+    },
+    "25450447": {
+      "id": "25450447",
+      "name": "LEGO CITY Ferry 60119",
+      "price": 19.49,
+      "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/51XrRxsdzEL._AC_US160_.jpg"
+    },
+    "32943736": {
+      "id": "32943736",
+      "name": "LEGO Classic Medium Creative Brick Box 10696",
+      "price": 28.97,
+      "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/51wH8x4c-hL._AC_US160_.jpg"
+    },
+    "36039991": {
+      "id": "36039991",
+      "name": "LEGO Juniors 10667 Construction",
+      "price": 11.99,
+      "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/51WCe9TgzpL._AC_US160_.jpg"
+    },
+    "44912632": {
+      "id": "44912632",
+      "name": "LEGO City Town 60133 Advent Calendar Building Kit (290 Piece)",
+      "price": 29.99,
+      "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/61O9hdthn3L._AC_US160_.jpg"
+    },
+    "46415097": {
+      "id": "46415097",
+      "name": "LEGO Creator Sea Plane",
+      "price": 4.99,
+      "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/51-df54Zc8L._AC_US160_.jpg"
+    },
+    "49589207": {
+      "id": "49589207",
+      "name": "LEGO CITY Van & Caravan 60117",
+      "price": 18.99,
+      "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/611lv7lcFPL._AC_US160_.jpg"
+    },
+    "50962467": {
+      "id": "50962467",
+      "name": "LEGO Star Wars Clone Turbo Tank 75151",
+      "price": 93.93,
+      "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/611bMDMk+JL._AC_US160_.jpg"
+    },
+    "52310559": {
+      "id": "52310559",
+      "name": "LEGO Creator Red Creatures",
+      "price": 10.99,
+      "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/51d28SZaN8L._AC_US160_.jpg"
+    },
+    "53719223": {
+      "id": "53719223",
+      "name": "LEGO City Space Port 60078 Utility Shuttle Building Kit",
+      "price": 21.49,
+      "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/51cUjryWCyL._AC_US160_.jpg"
+    },
+    "59799516": {
+      "id": "59799516",
+      "name": "LEGO STAR WARS K-2SO 75120",
+      "price": 24.86,
+      "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/51dXXqJqCCL._AC_US160_.jpg"
+    },
+    "61381510": {
+      "id": "61381510",
+      "name": "LEGO STAR WARS Imperial Death Trooper 75121",
+      "price": 24.86,
+      "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/51Mky9GMOmL._AC_US160_.jpg"
+    },
+    "65286737": {
+      "id": "65286737",
+      "name": "LEGO City Police 60044 Mobile Police Unit",
+      "price": 44.99,
+      "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/51XozA1v3lL._AC_US160_.jpg"
+    },
+    "65508994": {
+      "id": "65508994",
+      "name": "LEGO Star Wars Millennium Falcon 75105 Building Kit",
+      "price": 119.99,
+      "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/61kczyQfKPL._AC_US160_.jpg"
+    },
+    "66487080": {
+      "id": "66487080",
+      "name": "LEGO Minecraft The Cave 21113",
+      "price": 13.99,
+      "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/51to-VgwoVL._AC_US160_.jpg"
+    },
+    "67748825": {
+      "id": "67748825",
+      "name": "LEGO Disney Princess Elsa's Sparkling Ice Castle 41062",
+      "price": 30.39,
+      "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/61XvyoMpS1L._AC_US160_.jpg"
+    },
+    "67870745": {
+      "id": "67870745",
+      "name": "LEGO Superheroes Avengers Hydra Showdown",
+      "price": 15.49,
+      "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/61ATwSh-ElL._AC_US160_.jpg"
+    },
+    "68239229": {
+      "id": "68239229",
+      "name": "LEGO Creator Desert Racers 31040",
+      "price": 4.79,
+      "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/51J6-UdVrYL._AC_US160_.jpg"
+    },
+    "72025478": {
+      "id": "72025478",
+      "name": "LEGO Super Heroes Batman™: Gotham City Cycle Chase 76053",
+      "price": 15.99,
+      "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/61MuRMeWpBL._AC_US160_.jpg"
+    },
+    "77501959": {
+      "id": "77501959",
+      "name": "LEGO Classic Creative Bricks 10692",
+      "price": 11.99,
+      "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/51ZmGoqOK9L._AC_US160_.jpg"
+    },
+    "87507870": {
+      "id": "87507870",
+      "name": "LEGO City Great Vehicles Pickup Tow Truck",
+      "price": 17.99,
+      "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/51jCXQUA6qL._AC_US160_.jpg"
+    },
+    "94080763": {
+      "id": "94080763",
+      "name": "LEGO Classic Creative Supplement 10693",
+      "price": 14.79,
+      "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/61k1SpgabhL._AC_US160_.jpg"
+    },
+    "95614536": {
+      "id": "95614536",
+      "name": "LEGO Classic Large Creative Brick Box 10698",
+      "price": 49.99,
+      "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/51v8XSumV0L._AC_US160_.jpg"
     }
   },
-  "shopList": ["01", "02"],
+  "shopList": [
+    "32943736",
+    "46415097",
+    "66487080",
+    "77501959",
+    "95614536",
+    "9032439",
+    "44912632",
+    "52310559",
+    "67748825",
+    "65286737",
+    "3786444",
+    "94080763",
+    "18945511",
+    "68239229",
+    "53719223",
+    "2278565",
+    "67870745",
+    "87507870",
+    "9096477",
+    "49589207",
+    "65508994",
+    "36039991",
+    "72025478",
+    "25450447",
+    "59799516",
+    "50962467",
+    "61381510"
+  ],
   "cartList": []
 }
