@@ -1,4 +1,4 @@
-# Legoshop
+# Lego Shop
 
 Simple Lego shop application built using Angular 2, redux and express.
 
@@ -7,10 +7,10 @@ Simple Lego shop application built using Angular 2, redux and express.
 * npm install
 
 ## Development server
-npm install -g nodemon
-npm run dev
+* npm install -g nodemon
+* npm run dev
 
 ## Production server
-npm install -g pm2
-npm run build
-npm run start
+* npm install -g pm2
+* npm run build
+* npm run start
