@@ -17,6 +17,10 @@ import { Observable } from 'rxjs';
       color: #333;
       font-size:12px;
     }
+
+    md-list-item h4 {
+      font-size: 12px;
+    }
   `],
   template: `
     <p class="icon-text">
@@ -28,7 +32,7 @@ import { Observable } from 'rxjs';
 
       <md-list-item *ngFor="let lego of legoList">
         <img md-list-avatar src="{{lego.thumbnail}}">
-        <h4 md-line>{{lego.name}}</h4>
+        <h4 md-line title="{{lego.name}}">{{lego.name}}</h4>
         <p md-line> {{lego.price | currency:'AUD':true}} </p>
 
         <button md-icon-button title="Remove from cart" (click)="remove(lego)">

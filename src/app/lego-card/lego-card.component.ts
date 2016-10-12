@@ -23,6 +23,7 @@ import { Lego } from '../shared';
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
+      font-size: 12px;
     }
   `],
   template: `
