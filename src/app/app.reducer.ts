@@ -5,7 +5,7 @@ import * as Actions from './app.actions';
 import { StateAction, CartAction, BudgetAction } from './app.actions';
 
 import { Injectable } from '@angular/core';
-import { Http } from '@angular/http';
+import { Http, Headers, RequestOptions } from '@angular/http';
 
 
 @Injectable()
@@ -41,7 +41,7 @@ export class AppReducer {
   }
 
   reduceFetchState(state:AppState, action:StateAction):AppState {
-    this.http.get('assets/fakedata.json').map(
+    this.http.get('/state').map(
       response => response.json()
     ).subscribe( stateObj => {
       this.store.dispatch(Actions.fetchStateSuccess(stateObj));
@@ -60,6 +60,12 @@ export class AppReducer {
 
   reduceSaveState(state:AppState, action:StateAction) : AppState {
     // I am not doing any error handling on the response of the http request for this exercise
+    let postData = Object.assign({}, state, {legos:null});
+    let headers = new Headers({ 'Content-Type': 'application/json' });
+    let options = new RequestOptions({ headers: headers });
+    this.http.post('/state', JSON.stringify(postData), options).subscribe( () => {
+      this.store.dispatch(Actions.fetchStateSuccess(state));
+    });
     return state;
   }
 
