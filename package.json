@@ -23,7 +23,6 @@
     "@angular/platform-browser": "~2.0.0",
     "@angular/platform-browser-dynamic": "~2.0.0",
     "@angular/router": "~3.0.0",
-    "angular-cli": "^1.0.0-beta.17",
     "body-parser": "~1.15.1",
     "cookie-parser": "~1.4.3",
     "cookie-session": "^2.0.0-alpha.1",
