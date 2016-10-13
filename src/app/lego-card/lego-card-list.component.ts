@@ -16,7 +16,7 @@ import { Observable } from 'rxjs';
 })
 export class LegoCardListComponent implements OnInit {
 
-  legoList:Lego[];
+  legoList: Lego[];
 
   @select('shopList') legoIds$: Observable<string[]>;
 
@@ -27,9 +27,7 @@ export class LegoCardListComponent implements OnInit {
   ngOnInit() {
     this.legoIds$.subscribe(ids => {
       let state = this.store.getState();
-      this.legoList = ids.map(legoId => {
-        return state.legos[legoId];
-      });
+      this.legoList = ids.map(legoId => state.legos[legoId]);
     });
   }
 }

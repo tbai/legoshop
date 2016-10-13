@@ -45,7 +45,7 @@ import { Observable } from 'rxjs';
 })
 export class ShoppingCartComponent implements OnInit {
 
-  legoList:Lego[];
+  legoList: Lego[];
 
   @select('cartList') legoIds$: Observable<string[]>;
 
@@ -53,9 +53,7 @@ export class ShoppingCartComponent implements OnInit {
 
     this.legoIds$.subscribe(ids => {
       let state = this.store.getState();
-      this.legoList = ids.map(legoId => {
-        return state.legos[legoId];
-      });
+      this.legoList = ids.map(legoId => state.legos[legoId]);
     });
 
   }
