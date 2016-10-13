@@ -5,10 +5,10 @@
   "angular-cli": {},
   "scripts": {
     "start": "PORT=80 pm2 start ./bin/www",
-    "build": "node ./node_modules/angular-cli/bin/ng build -prod -o dist",
+    "build": "ng build -prod -o dist",
     "dev": "nodemon ./bin/www & ng build -dev -o dist -w",
     "lint": "tslint \"src/**/*.ts\"",
-    "test": "node ./node_modules/angular-cli/bin/ng test",
+    "test": "ng test",
     "pree2e": "webdriver-manager update",
     "e2e": "protractor"
   },

@@ -7,7 +7,8 @@ var json = {
   "legos": {},
   "shopList": [],
   "cartList": []
-}
+};
+
 document.querySelectorAll(".s-item-container").forEach(el => {
     var name = el.querySelector("h2[data-attribute]").innerText;
     var url = el.querySelector(".a-spacing-base img").src;
