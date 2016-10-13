@@ -24,7 +24,6 @@ function getSessionObject(req){
 
 /* GET get the current state. */
 router.get('/state', function(req, res, next) {
-  console.log("session", req.session);
   try {
     initSession(req);
 
